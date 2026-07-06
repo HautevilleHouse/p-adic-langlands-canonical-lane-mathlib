@@ -1,0 +1,7 @@
+-- This module is the root of the PAdicLanglandsCanonicalLaneLean Lean proof package.
+import PAdicLanglandsCanonicalLaneLean.Basic
+import PAdicLanglandsCanonicalLaneLean.SourcePackage
+import PAdicLanglandsCanonicalLaneLean.SourceDependencies
+import PAdicLanglandsCanonicalLaneLean.Formalization
+import PAdicLanglandsCanonicalLaneLean.ReviewerBridge
+import PAdicLanglandsCanonicalLaneLean.TheoremStatement
