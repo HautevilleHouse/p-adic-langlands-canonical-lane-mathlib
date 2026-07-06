@@ -5,3 +5,4 @@ import PAdicLanglandsCanonicalLaneLean.SourceDependencies
 import PAdicLanglandsCanonicalLaneLean.Formalization
 import PAdicLanglandsCanonicalLaneLean.ReviewerBridge
 import PAdicLanglandsCanonicalLaneLean.TheoremStatement
+import PAdicLanglandsCanonicalLaneLean.MathlibStatement
