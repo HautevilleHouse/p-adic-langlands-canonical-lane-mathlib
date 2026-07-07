@@ -8,7 +8,14 @@ def bridgeClosed (A : AdmissibleClass) : Prop :=
 
 theorem bridge_from_admissible_class (A : AdmissibleClass) :
     bridgeClosed A := by
-  exact And.intro A.object.sourceKeyChecked A.object.theoremObjectChecked
+  exact ⟨A.object.sourceKeyChecked,
+    A.object.theoremObjectChecked,
+    A.object.localModelWitness,
+    A.object.globalBridgeWitness,
+    A.object.functorialityOrCycleGateWitness,
+    A.object.schemeMorphismGateWitness,
+    A.object.lseriesGateWitness,
+    A.object.classicalRemainderCarried⟩
 
 end PAdicLanglandsCanonicalLaneLean
 end HautevilleHouse
